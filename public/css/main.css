@@ -31,8 +31,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   position:relative;
   top:50%;
   left:50%;
-  width:17.5vh;
-  height:17.5vh;
+  width:18.5vh;
+  height:18.5vh;
   margin-left:-10vh;
   margin-top:-10vh;
   overflow:hidden;
@@ -70,23 +70,23 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*Pretty complex animation, so each side needs its own @keyframes.*/
 
 @keyframes slide1{
-  50%{width:16vh; margin-left:0;}
-  100%{margin-left:16vh;}
+  50%{width:18vh; margin-left:0;}
+  100%{margin-left:18vh;}
 }
 
 @keyframes slide2{
-  50%{height:16vh; margin-top:0;}
-  100%{margin-top:16vh;}
+  50%{height:18vh; margin-top:0;}
+  100%{margin-top:18vh;}
 }
 
 @keyframes slide3{
-  50%{width:16vh; margin-right:0;}
-  100%{margin-right:16vh;}
+  50%{width:18vh; margin-right:0;}
+  100%{margin-right:18vh;}
 }
 
 @keyframes slide4{
-  50%{height:16vh; margin-bottom:0}
-  100%{margin-bottom:16vh;}
+  50%{height:18vh; margin-bottom:0}
+  100%{margin-bottom:18vh;}
 }
 
 
