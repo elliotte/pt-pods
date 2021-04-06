@@ -31,14 +31,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   position:relative;
   top:50%;
   left:50%;
-  width:34vh;
-  height:34vh;
-  margin-left:-17vh;
-  margin-top:-17vh;
+  width:17.5vh;
+  height:17.5vh;
+  margin-left:-10vh;
+  margin-top:-10vh;
   overflow:hidden;
   transition:background-color 500ms;
   cursor:pointer;
-  margin-bottom:7vh;
+  margin-bottom:5vh;
 }
 
 #pelogo{
@@ -46,19 +46,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   position: absolute;
   left: 2vh;
   top: 2vh;
-  width: 30vh;
-  height: 30vh;
+  width: 15vh;
+  height: 15vh;
   background: #fff;
   background: -moz-linear-gradient(-45deg, #fff 0%, #fff 100%);
   background: -webkit-linear-gradient(-45deg, #fff 0%,#fff 100%);
   background: linear-gradient(135deg, #fff 0%,#fff 100%);
   background-size: contain;
   font-family: Trebuchet MS, sans-serif;
-  font-size: 20vh;
+  font-size: 10vh;
   font-weight: bold;
   color: #51BAA4;
   text-align: center;
-  line-height: 30vh;
+  line-height: 14vh;
 }
 
 .loader{
@@ -70,30 +70,27 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*Pretty complex animation, so each side needs its own @keyframes.*/
 
 @keyframes slide1{
-  50%{width:32vh; margin-left:0;}
-  100%{margin-left:32vh;}
+  50%{width:16vh; margin-left:0;}
+  100%{margin-left:16vh;}
 }
 
 @keyframes slide2{
-  50%{height:32vh; margin-top:0;}
-  100%{margin-top:32vh;}
+  50%{height:16vh; margin-top:0;}
+  100%{margin-top:16vh;}
 }
 
 @keyframes slide3{
-  50%{width:32vh; margin-right:0;}
-  100%{margin-right:32vh;}
+  50%{width:16vh; margin-right:0;}
+  100%{margin-right:16vh;}
 }
 
 @keyframes slide4{
-  50%{height:32vh; margin-bottom:0}
-  100%{margin-bottom:32vh;}
+  50%{height:16vh; margin-bottom:0}
+  100%{margin-bottom:16vh;}
 }
 
 
-
-
-
-
+/*END OF LOGO PLAY*/
 
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
