@@ -53,3 +53,5 @@ mongoexport -h ds013574.mlab.com:13574 -d friends-of-sullivan -c users -u master
   ## Technology stack
 
    - NodeJS | Express | MongoDB | Azure
+
+Logo:  `https://codepen.io/PicturElements/pen/ZOwkwv`

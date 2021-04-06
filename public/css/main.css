@@ -13,19 +13,88 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline;
-	}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.tedz-special-text {
+	font-family: "Rubik Mono One", sans-serif;
+}
+
+#logocontainer{
+  display:block;
+  position:relative;
+  top:50%;
+  left:50%;
+  width:34vh;
+  height:34vh;
+  margin-left:-17vh;
+  margin-top:-17vh;
+  overflow:hidden;
+  transition:background-color 500ms;
+  cursor:pointer;
+  margin-bottom:7vh;
+}
+
+#pelogo{
+  display: block;
+  position: absolute;
+  left: 2vh;
+  top: 2vh;
+  width: 30vh;
+  height: 30vh;
+  background: #fff;
+  background: -moz-linear-gradient(-45deg, #fff 0%, #fff 100%);
+  background: -webkit-linear-gradient(-45deg, #fff 0%,#fff 100%);
+  background: linear-gradient(135deg, #fff 0%,#fff 100%);
+  background-size: contain;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 20vh;
+  font-weight: bold;
+  color: #51BAA4;
+  text-align: center;
+  line-height: 30vh;
+}
+
+.loader{
+  display:block;
+  position:absolute;
+  background-color:#51BAA4;
+}
+
+/*Pretty complex animation, so each side needs its own @keyframes.*/
+
+@keyframes slide1{
+  50%{width:32vh; margin-left:0;}
+  100%{margin-left:32vh;}
+}
+
+@keyframes slide2{
+  50%{height:32vh; margin-top:0;}
+  100%{margin-top:32vh;}
+}
+
+@keyframes slide3{
+  50%{width:32vh; margin-right:0;}
+  100%{margin-right:32vh;}
+}
+
+@keyframes slide4{
+  50%{height:32vh; margin-bottom:0}
+  100%{margin-bottom:32vh;}
+}
 
 
-	.tedz-special-text {
-		font-family: "Rubik Mono One", sans-serif;
-	}
+
+
+
+
+
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
